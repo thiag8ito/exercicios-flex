@@ -1,0 +1,7 @@
+@media(max-width: 1440px) {
+    .lista-imagens {
+        max-width: 900px;
+        gap: 0;
+    }
+
+}

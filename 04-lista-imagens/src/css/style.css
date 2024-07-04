@@ -1,0 +1,39 @@
+html {
+    font-family: 'Public Sans', sans-serif;
+    color: #fff;
+}
+
+.lista-imagens {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.lista-imagens .pintura {
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.lista-imagens .pintura .infos {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.lista-imagens .pintura img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 300;
+}

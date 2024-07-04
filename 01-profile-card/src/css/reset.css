@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border-radius: 50%;
+    height: 100px;
+}

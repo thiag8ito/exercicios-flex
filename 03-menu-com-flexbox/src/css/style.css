@@ -1,0 +1,72 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Piblic Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+img {
+    width: 45px;
+    display: flex;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    text-align: center;
+    padding: 10px 5px;
+    display: flex;
+    align-items: stretch;
+    transition: 0.3s ease-in-out;
+}
+
+ul a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+ul a:hover {
+    background-color: #5BC241;
+    color: #fff;
+}
+
+.btn {
+    background-color: #5BC241;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
